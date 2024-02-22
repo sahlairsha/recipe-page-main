@@ -84,11 +84,13 @@
   }
 
   .row {
-    display: flex !important;
+    margin: 0.1rem !important;
+    padding: 0.5rem;
   }
 
   .column::after {
     width: 80% !important;
+    margin-top: 0.5rem;
     margin-left: 6rem;
   }
 }
