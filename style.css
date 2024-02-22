@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.recipe-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: hsl(0, 0%, 100%);
+    width: 55%;
+    height: 100%;
+    margin-bottom: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin-top: 20px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.omlette-image {
+    width: 93%;
+    height: 45vh;
+    border-radius: 16px;
+
+}
+
+.main-heading {
+    justify-content: center;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin: 1.5rem;
+    font-style: normal;
+}
+
+.heading {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2rem;
+    padding: 2rem;
+    color: hsl(14, 45%, 36%);
+}
+
+.para1 {
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    font-style: normal;
+    color: hsl(30, 10%, 34%);
+    padding-left: 2rem;
+}
+
+.prep-page {
+    border: 1px solid hsl(330, 100%, 98%);
+    border-radius: 16px;
+    background-color: hsl(330, 100%, 98%);
+    width: 80%;
+    height: 50%;
+    margin: 1.5rem;
+    padding: 1.5rem;
+
+}
+
+.second-head {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline;
+    width: 20%;
+    height: 20%;
+    color: hsl(332, 51%, 32%);
+}
+
+.time-list {
+    padding-top: 1rem;
+}
+
+span {
+    color: hsl(24, 5%, 18%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.list {
+    margin-left: 3rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+
+}
+
+.p1 {
+    display: inline;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.ing-list {
+    margin-left: 4rem;
+
+}
+
+.ing-list::after {
+    position: absolute;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    align-items: center;
+    width: 40%;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    content: "";
+}
+
+.instruction-list {
+    margin-left: 1rem;
+}
+
+.instruction-list::after {
+    position: absolute;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    align-items: center;
+    width: 40%;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    content: "";
+}
+
+.nutri {
+    padding-left: 1rem;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    height: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cell2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column::after {
+    position: absolute;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: 13rem;
+    align-items: center;
+    width: 40%;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    content: "";
+}
+
+.column:last-of-type .cell2 {
+    border-bottom: none;
+}
+
+.column:last-of-type::after {
+    margin-right: 1000rem;
+}

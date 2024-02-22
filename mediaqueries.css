@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1439px) {
+
+  .container {
+    width: 100%;
+
+  }
+
+  .column {
+    width: 50%;
+    display: table-cell;
+    padding: .5em;
+  }
+}
+
+@media only screen and (max-width: 375px) and (min-width:0px) {
+  body {
+    background: none !important;
+  }
+
+  .container {
+    width: 100% !important;
+    height: 100%;
+    border: 0 !important;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 0 !important;
+    margin-top: 0 !important;
+    border: none;
+  }
+
+  .omlette-image {
+    width: 100%;
+    min-width: 450px;
+    height: 45vh;
+    margin-top: -55px !important;
+    border-radius: 0 !important;
+  }
+
+  .main-heading {
+    margin: 2rem !important;
+
+  }
+
+  .heading {
+    margin-top: 0.5rem !important;
+    padding: 2rem !important;
+  }
+
+  .time-list {
+    padding-top: 0.5rem !important;
+  }
+
+  .ing-list {
+    margin-left: 2rem !important;
+  }
+
+  .ing-list::after {
+    width: 80% !important;
+  }
+
+  .instruction {
+    padding: 0.5rem;
+  }
+
+  .instruction-list {
+    margin: 0.5rem;
+  }
+
+  .instruction-list::after {
+    width: 80% !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .nutri {
+    padding-top: 1rem;
+    padding-left: 0.5rem !important;
+  }
+
+  .row {
+    display: flex !important;
+  }
+
+  .column::after {
+    width: 80% !important;
+    margin-left: 6rem;
+  }
+}
+
+
+@media only screen and (min-width: 376px) and (max-width: 1439px) {
+  .container {
+    width: 100%;
+  }
+
+  .column {
+    width: 50%;
+    display: table-cell;
+    padding: 0.5em;
+  }
+}
